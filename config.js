@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "ALI-MD~vZMGRBra#kSFLkp-qRoVx5tnGCZE6JeLhHxhHQZMJTNpzgJJKKS4",  
+SESSION_ID: process.env.SESSION_ID || "ALI-MD~bUsEGJRY#veNPVkwUpIIOsO74y-qAzr62qASLJ6ODBVuLYWjj9Vw",  
 //chatbot integration 
 CHATBOT: process.env.CHATBOT || "on",
 // add your Session Id 
@@ -42,11 +42,11 @@ STICKER_NAME: process.env.STICKER_NAME || "ALI-MD",
 VPS: process.env.VPS || "",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
-OWNER_REACT: process.env.OWNER_REACT || "true",
+OWNER_REACT: process.env.OWNER_REACT || "false",
 // make this true for custum emoji react    
 CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
 // chose custom react emojis by yourself 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "923003588997",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "923194333693",
 // add your bot owner number
 OWNER_NAME: process.env.OWNER_NAME || "ALI INXIDE",
 // add bot owner name
@@ -56,7 +56,7 @@ LIVE_MSG: process.env.LIVE_MSG || "HEY IM ALIVE",
 // add alive msg here 
 READ_MESSAGE: process.env.READ_MESSAGE || "false",
 // Turn true or false for automatic read msgs
-AUTO_REACT: process.env.AUTO_REACT || "true",
+AUTO_REACT: process.env.AUTO_REACT || "false",
 // make this true or false for auto react on all msgs
 ANTI_BAD_WORD: process.env.ANTI_BAD_WORD || "false",
 // false or true for anti bad words 
